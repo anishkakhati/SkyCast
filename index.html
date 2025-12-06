@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast - Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="assets/sun.png" width="100">
+    <div class="container">
+        <h1 class="title">SkyCast ☁️</h1>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search city..." disabled>
+            <button disabled>Search</button>
+        </div>
+
+        <div class="weather-card">
+            <img src="assets/sun.png" class="weather-icon">
+
+            <h2 class="temp">28°C</h2>
+            <h3 class="city">New York (Sample)</h3>
+
+            <div class="details">
+                <p>🌧️ Humidity: 45%</p>
+                <p>💨 Wind: 12 km/h</p>
+            </div>
+        </div>
+
+        <h2 class="sub-heading">5-Day Forecast (Sample)</h2>
+        <div class="forecast">
+            <div class="day">
+                <p>Mon</p>
+                <img src="assets/cloud.png">
+                <span>25°C</span>
+            </div>
+
+            <div class="day">
+                <p>Tue</p>
+                <img src="assets/rain.png">
+                <span>22°C</span>
+            </div>
+
+            <div class="day">
+                <p>Wed</p>
+                <img src="assets/sun.png">
+                <span>29°C</span>
+            </div>
+
+            <div class="day">
+                <p>Thu</p>
+                <img src="assets/drizzle.png">
+                <span>24°C</span>
+            </div>
+
+            <div class="day">
+                <p>Fri</p>
+                <img src="assets/snow.png">
+                <span>18°C</span>
+            </div>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
